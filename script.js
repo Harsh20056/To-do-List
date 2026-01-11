@@ -22,7 +22,8 @@ const renderUi = () => {
 
 renderUi();
 
-addBtn.addEventListener("click", (e) => {
+document.querySelector('.inp-container').addEventListener("submit", (e) => {
+  e.preventDefault()
   let inpValue = input.value;
 
   tasksArr.push(inpValue);

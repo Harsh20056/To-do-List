@@ -8,14 +8,14 @@
 
 html,
 body {
-  height: 100%;
   width: 100%;
+  height: 100%;
+  background-color: #0f172a;
+
 }
 
 main {
-  height: 100%;
   width: 100%;
-  background-color: #0f172a;
   color: #1E293B;
   display: flex;
   flex-direction: column;
@@ -78,6 +78,13 @@ main {
 .btns {
   display: flex;
   gap: 20px;
+}
+
+.list-conatiner p{
+  max-width: 300px;
+  overflow-wrap: break-word; /* Modern property */
+  word-wrap: break-word; 
+  white-space: normal;
 }
 
 #del {
